@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ShopTop</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+	<link rel="manifest" href="./favicon/site.webmanifest">
+	<link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#48a7ff">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<div class="fixed__block" id="f_b"></div>
+	<div class="wrapper">
+		<header>
+			<div class="__container">
+				<div class="header__logo">
+					<div class="logo__icon"><img src="./img/icons/header_logo.svg" alt=""></div>
+					<div class="logo__text">ShopTop</div>
+				</div>
+				<nav class="header__nav header_body">
+					<ul class="headee__nav--list">
+						<li class="nav--list__link nav_link"><a href="#about">About</a></li>
+						<li class="nav--list__link nav_link"><a href="#features">Features</a></li>
+						<li class="nav--list__link nav_link"><a href="#pricing">Pricing</a></li>
+						<li class="nav--list__link nav_link"><a href="#testimonials">Testimonials</a></li>
+					</ul>
+				</nav>
+				<div class="header__buttoms">
+					<div class="buttom__sign-in"><a href="#f_b">Sign in</a></div>
+					<div class="buttom__sign-up"><a href="#f_b">Sign up</a></div>
+				</div>
+				<div class="menu-burger">
+					<span class="burder_line"></span>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="page__1">
+				<div class="__container">
+					<div class="photo">
+						<div class="photo__main">
+							<img src="./img/page1_photo.webp" alt="">
+						</div>
+						<div class="photo__photo-1">
+							<img src="./img/page1_1.webp" alt="">
+						</div>
+						<div class="photo__photo-2">
+							<img src="./img/page1_2.webp" alt="">
+						</div>
+						<div class="photo__photo-3">
+							<img src="./img/page1_3.webp" alt="">
+						</div>
+						<div class="photo__photo-4">
+							<img src="./img/page1_4.webp" alt="">
+						</div>
+					</div>
+					<div class="info">
+						<div class="info__title title--block">Everything your store needs to stand out</div>
+						<div class="info__subtitle">With ShopTop's integrated management system, you can take your business to another level</div>
+						<div class="buttom--get-started">
+							<a href="#f-b" class="buttom">Get Started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__2" id="about">
+				<div class="__container">
+					<div class="top">
+						<div class="top__info">
+							<div class="top__text">
+								<div class="top__title title--block">More than a system</div>
+								<div class="top__subtitle">With ShopTop, you will be able to access the performance of all your stores, from the number of daily sales to knowing the amount of expenses and their salaries. You will be able to control your business from wherever you are and also understand what is missing for your store to be a great success.</div>
+							</div>
+						</div>
+						<div class="top__photo">
+							<img src="./img/shopping_cart.webp" alt="">
+						</div>
+					</div>
+					<div class="table">
+						<div class="table_cell--1 table__cell">
+							<div class="cell__icon"><img src="./img/icons/body.svg" alt=""></div>
+							<div class="cell__info"><span class="info__number">8000+</span><br>Users</div>
+						</div>
+						<div class="table_cell--2 table__cell">
+							<div class="cell__icon"><img src="./img/icons/point.svg" alt=""></div>
+							<div class="cell__info"><span class="info__number">340+</span><br>Locations</div>
+						</div>
+						<div class="table_cell--3 table__cell">
+							<div class="cell__icon"><img src="./img/icons/servers.svg" alt=""></div>
+							<div class="cell__info"><span class="info__number">500+</span><br>Servers</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__3" id="features">
+				<div class="__container">
+					<div class="page__name">
+						<div class="name__opacity">Do more with the shoptop</div>
+						<div class="name__title">Features</div>
+					</div>
+					<div class="page__cards">
+						<div class="card">
+							<div class="card__photo"><img src="./img/card_1.webp" alt=""></div>
+							<div class="card__text">
+								<div class="card__name">Level Up</div>
+								<div class="card__description">Using all our services, you will increase the quality of your store, attracting more and more customers</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__photo"><img src="./img/card_2.webp" alt=""></div>
+							<div class="card__text">
+								<div class="card__name">Monitor performance</div>
+								<div class="card__description">With our dashboard specialized in Power BI, you can see how much each business is yielding</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__photo"><img src="./img/card_3.webp" alt=""></div>
+							<div class="card__text">
+								<div class="card__name">From wherever you are</div>
+								<div class="card__description">Whether from home or the office, have access to your employees and store performance in real time</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__4" id="pricing">
+				<div class="__container">
+					<div class="top--check">
+						<div class="check">
+							<input type="checkbox" id="my_checkbox" onclick="isChecked()">
+							<div class="checkbox--yearly">Yearly</div>
+							<div class="checkbox--monthly">Monthly</div>
+						</div>
+						<div class="top-text">
+							<div class="text-title">Simple, transparent pricing</div>
+							<div class="text-subtitle">No contracts. No surprise fees.</div>
+						</div>
+					</div>
+					<div class="body--check check--month">
+						<div class="points--text">
+							<ul class="points__list">
+								<li class="point">Complete dashboard</li>
+								<li class="point">Own analytics platform</li>
+								<li class="point">Chat support</li>
+								<li class="point">Number of users</li>
+								<li class="point">Management of registered products</li>
+								<li class="point">Account manager</li>
+								<li class="point">Accounts payable management</li>
+								<li class="point">Satisfaction guaranteed</li>
+							</ul>
+						</div>
+						<div class="points--card">
+							<div class="card__frame">
+								<div class="card__name">Starter</div>
+								<div class="card__price"><span>$80</span>/month</div>
+								<ul class="card__option">
+									<li class="option check"><span>Complete dashboard</span></li>
+									<li class="option close"><span>Own analytics platform</span></li>
+									<li class="option check"><span>Chat support</span></li>
+									<li class="option"><span>Number of users</span>1 user</li>
+									<li class="option check"><span>Management of registered products</span></li>
+									<li class="option close"><span>Account manager</span></li>
+									<li class="option close"><span>Accounts payable management</span></li>
+									<li class="option check"><span>Satisfaction guaranteed</span></li>
+								</ul>
+								<div class="card__choose">
+									<a href="#f_b" class="choose__link">Choose plan</a>
+								</div>
+							</div>
+							<div class="card__frame">
+								<div class="card__name">Pro</div>
+								<div class="card__price"><span>$200</span>/month</div>
+								<ul class="card__option">
+									<li class="option check"><span>Complete dashboard</span></li>
+									<li class="option check"><span>Own analytics platform</span></li>
+									<li class="option check"><span>Chat support</span></li>
+									<li class="option"><span>Number of users</span>2 user</li>
+									<li class="option check"><span>Management of registered products</span></li>
+									<li class="option check"><span>Account manager</span></li>
+									<li class="option close"><span>Accounts payable management</span></li>
+									<li class="option check"><span>Satisfaction guaranteed</span></li>
+								</ul>
+								<div class="card__choose">
+									<a href="#f_b" class="choose__link">Choose plan</a>
+								</div>
+							</div>
+							<div class="card__frame">
+								<div class="card__name">Enterprise</div>
+								<div class="card__price"><span>$500</span>/month</div>
+								<ul class="card__option">
+									<li class="option check"><span>Complete dashboard</span></li>
+									<li class="option check"><span>Own analytics platform</span></li>
+									<li class="option check"><span>Chat support</span></li>
+									<li class="option"><span>Number of users</span>3 user</li>
+									<li class="option check"><span>Management of registered products</span></li>
+									<li class="option check"><span>Account manager</span></li>
+									<li class="option check"><span>Accounts payable management</span></li>
+									<li class="option check"><span>Satisfaction guaranteed</span></li>
+								</ul>
+								<div class="card__choose">
+									<a href="#f_b" class="choose__link">Choose plan</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="body--check check--year _active-check">
+						<div class="points--text">
+							<ul class="points__list">
+								<li class="point">Complete dashboard</li>
+								<li class="point">Own analytics platform</li>
+								<li class="point">Chat support</li>
+								<li class="point">Number of users</li>
+								<li class="point">Management of registered products</li>
+								<li class="point">Account manager</li>
+								<li class="point">Accounts payable management</li>
+								<li class="point">Satisfaction guaranteed</li>
+							</ul>
+						</div>
+						<div class="points--card">
+							<div class="card__frame">
+								<div class="card__name">Starter</div>
+								<div class="card__price"><span>$900</span>/month</div>
+								<ul class="card__option">
+									<li class="option check"><span>Complete dashboard</span></li>
+									<li class="option close"><span>Own analytics platform</span></li>
+									<li class="option check"><span>Chat support</span></li>
+									<li class="option"><span>Number of users</span>1 user</li>
+									<li class="option check"><span>Management of registered products</span></li>
+									<li class="option close"><span>Account manager</span></li>
+									<li class="option close"><span>Accounts payable management</span></li>
+									<li class="option check"><span>Satisfaction guaranteed</span></li>
+								</ul>
+								<div class="card__choose">
+									<a href="#f_b" class="choose__link">Choose plan</a>
+								</div>
+							</div>
+							<div class="card__frame">
+								<div class="card__name">Pro</div>
+								<div class="card__price"><span>$2000</span>/month</div>
+								<ul class="card__option">
+									<li class="option check"><span>Complete dashboard</span></li>
+									<li class="option check"><span>Own analytics platform</span></li>
+									<li class="option check"><span>Chat support</span></li>
+									<li class="option"><span>Number of users</span>2 user</li>
+									<li class="option check"><span>Management of registered products</span></li>
+									<li class="option check"><span>Account manager</span></li>
+									<li class="option close"><span>Accounts payable management</span></li>
+									<li class="option check"><span>Satisfaction guaranteed</span></li>
+								</ul>
+								<div class="card__choose">
+									<a href="#f_b" class="choose__link">Choose plan</a>
+								</div>
+							</div>
+							<div class="card__frame">
+								<div class="card__name">Enterprise</div>
+								<div class="card__price"><span>$5000</span>/month</div>
+								<ul class="card__option">
+									<li class="option check"><span>Complete dashboard</span></li>
+									<li class="option check"><span>Own analytics platform</span></li>
+									<li class="option check"><span>Chat support</span></li>
+									<li class="option"><span>Number of users</span>3 user</li>
+									<li class="option check"><span>Management of registered products</span></li>
+									<li class="option check"><span>Account manager</span></li>
+									<li class="option check"><span>Accounts payable management</span></li>
+									<li class="option check"><span>Satisfaction guaranteed</span></li>
+								</ul>
+								<div class="card__choose">
+									<a href="#f_b" class="choose__link">Choose plan</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__5" id="testimonials">
+				<div class="__container">
+					<div class="name-page">Here is what our clients are saying about us</div>
+					<div class="swiper swiper-container">
+						<div class="swiper_point"></div>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="slide__photo"><img src="./img/man_swiper.webp" alt=""></div>
+								<div class="slide__info">
+									<div class="info__name">James Fernadez Lopez</div>
+									<div class="info__discription">My business was going from bad to worse before I met ShopTop. I was unmotivated and this reflected a lot on my employees and the store itself, but when I signed up for the system's Pro plan, everything changed. My business couldn't be better, seeing a lot and my employees are very motivated. I can only thank ShopTop for the excellent service!</div>
+									<div class="info__date">Jan 20, 2022</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide__photo"><img src="./img/man_swiper.webp" alt=""></div>
+								<div class="slide__info">
+									<div class="info__name">James Fernadez Lopez</div>
+									<div class="info__discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis sint iure sapiente cumque illo dolorem repellat rerum. Perspiciatis a culpa cum, possimus odit officiis totam voluptatibus tenetur, porro omnis deleniti assumenda? Eaque, consectetur error rerum sapiente distinctio praesentium maiores quisquam sed nesciunt accusamus deserunt modi, voluptatum ad neque, rem, molestiae.</div>
+									<div class="info__date">Jan 20, 2022</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide__photo"><img src="./img/man_swiper.webp" alt=""></div>
+								<div class="slide__info">
+									<div class="info__name">James Fernadez Lopez</div>
+									<div class="info__discription">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Corrupti error veritatis provident velit magni fugiat eaque officiis neque vel enim?</div>
+									<div class="info__date">Jan 20, 2022</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide__photo"><img src="./img/man_swiper.webp" alt=""></div>
+								<div class="slide__info">
+									<div class="info__name">James Fernadez Lopez</div>
+									<div class="info__discription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut adipisci, quidem ducimus itaque minima. Dolore amet sapiente cumque possimus in praesentium soluta mollitia accusantium ut dolorem animi, vel quaerat, ea debitis? Amet ea debitis saepe at beatae nostrum dolores, similique?</div>
+									<div class="info__date">Jan 20, 2022</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide__photo"><img src="./img/man_swiper.webp" alt=""></div>
+								<div class="slide__info">
+									<div class="info__name">James Fernadez Lopez</div>
+									<div class="info__discription">Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Praesentium quos dolorum magnam molestiae voluptate odio tempore vel blanditiis. Minima sapiente, nisi, recusandae voluptas fugit error, esse ab totam quibusdam quidem dolore saepe ipsa. Ipsa laudantium architecto, reiciendis.</div>
+									<div class="info__date">Jan 20, 2022</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="slide__photo"><img src="./img/man_swiper.webp" alt=""></div>
+								<div class="slide__info">
+									<div class="info__name">James Fernadez Lopez</div>
+									<div class="info__discription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis nam quod beatae iusto tempora, sunt harum dicta eaque nihil commodi voluptatem unde dolorem nulla dolorum.</div>
+									<div class="info__date">Jan 20, 2022</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-buttons">
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+					<div class="waiting">
+						<div class="waiting__top">What are you waiting for?</div>
+						<div class="waiting__main">Get 5 stars anywhere today.</div>
+						<div class="waiting__buttom"><a href="#f_b">Get Started</a></div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="__container">
+				<div class="block__get">
+					<div class="get__logo">
+						<div class="logo__img"><img src="./img/icons/footer_logo.svg" alt=""></div>
+						<div class="logo__text">ShopTop</div>
+					</div>
+					<div class="get_question">Ready to get started?</div>
+					<div class="get__started buttom--get-started">
+						<a href="#f_b" class="get__buttom buttom">Get Started</a>
+					</div>
+				</div>
+				<div class="block__nav">
+					<div class="nav__one nav__list">
+						<div class="list__name info">ShopTop</div>
+						<ul class="list__links">
+							<li class="list__link"><a href="#about">About</a></li>
+							<li class="list__link"><a href="#features">Features</a></li>
+							<li class="list__link"><a href="#pricing">Pricing</a></li>
+							<li class="list__link"><a href="#testimonials">Testimonials</a></li>
+						</ul>
+					</div>
+					<div class="nav__two nav__list">
+						<div class="list__name info">ShopTop</div>
+						<ul class="list__links">
+							<li class="list__link"><a href="#f_b">FAQs</a></li>
+							<li class="list__link"><a href="#f_b">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="block__sign">
+					<div class="buttom__sign-in"><a href="#f_b">Sign in</a></div>
+					<div class="buttom__sign-up"><a href="#f_b">Sign up</a></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script>
+	"use strict"
+	// Определяет тип устройства ТАЧ или ПК
+
+	const isMobile = {
+		Android: function () {
+			return navigator.userAgent.match(/Android/i);
+		},
+		BlackBerry: function () {
+			return navigator.userAgent.match(/BlackBerry/i);
+		},
+		IOS: function () {
+			return navigator.userAgent.match(/iphone|iPad|iPod/i);
+		},
+		Opera: function () {
+			return navigator.userAgent.match(/Opera Mini/i);
+		},
+		Windows: function () {
+			return navigator.userAgent.match(/IEMobile/i);
+		},
+		any: function () {
+			return (
+				isMobile.Android() ||
+				isMobile.BlackBerry() ||
+				isMobile.IOS() ||
+				isMobile.Opera() ||
+				isMobile.Windows());
+		}
+	};
+	if (isMobile.any()) {
+		document.body.classList.add('_touch');
+		let menuArrows = document.querySelectorAll('.info');
+		if (menuArrows.length > 0) {
+			for (let index = 0; index < menuArrows.length; index++) {
+				const menuArrow = menuArrows[index];
+				menuArrow.addEventListener("click", function (e) {
+					menuArrow.parentElement.classList.toggle('_active');
+				});
+			}
+		}
+	} else {
+		document.body.classList.add('_pc');
+		let menuArrows = document.querySelectorAll('.info');
+		if (menuArrows.length > 0) {
+			for (let index = 0; index < menuArrows.length; index++) {
+				const menuArrow = menuArrows[index];
+				menuArrow.addEventListener("click", function (e) {
+					menuArrow.parentElement.classList.toggle('_active');
+				});
+			}
+		}
+	}
+	//Бургер
+	const iconMenu = document.querySelector('.menu-burger')
+	if (iconMenu) {
+		const menuBody = document.querySelector('.header_body');
+		iconMenu.addEventListener('click', function (e) {
+			document.body.classList.toggle('_lock')
+			iconMenu.classList.toggle('_active');
+			menuBody.classList.toggle('_active');
+			const listLinks = document.querySelectorAll('.nav_link')
+			if (listLinks.length > 0) {
+				listLinks.forEach(listLink => {
+					listLink.addEventListener("click", onMenuClick);
+				});
+				function onMenuClick(e) {
+					const listLink = e.target;
+					if (iconMenu.classList.contains('_active')) {
+						document.body.classList.remove('_lock');
+						menuBody.classList.remove('_active');
+						iconMenu.classList.remove('_active');
+					};
+				};
+			};
+		});
+	};
+	function isChecked() {
+		if(document.getElementById("my_checkbox").checked) {
+			const checkOne = document.querySelector('.check--month');
+			checkOne.classList.add('_active-check');
+			const checkTwo = document.querySelector('.check--year');
+			checkTwo.classList.remove('_active-check');
+		}
+		else {
+			const checkOnee = document.querySelector('.check--month');
+			checkOnee.classList.remove('_active-check');
+			const checkTwoo = document.querySelector('.check--year');
+			checkTwoo.classList.add('_active-check');
+		}
+	};
+
+	new Swiper('.swiper', {
+		spaceBetween: 250,
+		keyboard: {
+			unabled: true,
+			onliInViewport: true,
+			pageUpDown: true,
+		},
+		speed: 800,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		loop: true,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		effect: 'fade',
+		fadeEffect: {
+			crossFade: true,
+		},
+		autoHeight: true,
+	});
+	</script>
+</body>
+</html>
